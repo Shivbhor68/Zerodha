@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+.headerlogo{
+    height: 17px;
+
+}
+a{
+    margin-right: 10px;
+    font-size: 15;
+    text-decoration: none;
+    color: #666666;
+}
+li{
+    padding: 20px;
+    display: inline;
+}
+a:hover{
+    color: #387ed1;
+}
+#signupbtn{
+    border-radius: 4px;
+    margin-top: 30px;
+    background-color: #387ed1;
+    height: 45px;
+    width: 203px;
+    color: #fff;
+    font-size: 20px;
+    border-color: white;
+}
+#planding{
+    margin-top: 30px;
+    color: #666666;
+    font-size: 20px;
+}
+.landingdiv{
+    margin-top: 40px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#landingh1{
+    margin-top: 55px;
+    font-size: 44px;
+    color: #424242;
+    
+}
+.landingimg{
+    height: 45vh;
+}
+.headerdiv{
+    height: 69px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 1px 2px #eee;
+}
+
+.secondDiv{
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    height: auto;
+    
+}
+.customer{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+.childdiv2{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
