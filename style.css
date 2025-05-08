@@ -115,6 +115,7 @@ a:hover {
     display: flex;
     justify-content: space-evenly;
     height: 500px;
+        margin-left: 101px;
 }
 
 .outerAccount {
@@ -221,6 +222,8 @@ li:hover {
 
 .footer {
     margin: 20px;
+        padding-left: 231px;
+            padding-right: 231px;
 }
 
 #lastlinks {
