@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Inter",
-        serif;
+    font-family: sans-serif;
 }
 .headerlogo{
     height: 17px;
@@ -11,13 +10,17 @@
 }
 a{
     margin-right: 10px;
-    font-size: 15;
+    font-size: 15px;
     text-decoration: none;
     color: #666666;
+    transition: color 300ms ease-in-out;
 }
 #li{
     padding: 20px;
     display: inline;
+}
+#id{
+list-style-type: none;
 }
 
 a:hover{
@@ -90,6 +93,7 @@ li{
     margin-bottom: 20px;
     font-size: 20px;
     color: #424242;
+    transition: color  500ms ease-in-out;
     font-weight: 500;
 }
 #lastlinks:hover{
@@ -104,7 +108,7 @@ li:hover{
 #lastlinks{
     display: inline;
     margin-right: 25px;
-    
+    transition: color 200ms ease-in-out;
     color: #666666;
     font-size: 15px;
 }
@@ -218,7 +222,7 @@ li:hover{
     align-items: center;
     gap: 50px
     ;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 
 #h3{
@@ -305,7 +309,7 @@ li:hover {
     height: 334px;
     width: 242px;
     display: flex;
-
+    
     flex-direction: column;
     align-items: start;
 
@@ -317,4 +321,22 @@ li:hover {
     justify-content: space-evenly;
     height: 500px;
     margin-left: 101px;
+}
+#ul{
+    list-style: none;
+}
+.hovering{
+
+padding-top: 20px
+}
+
+
+.line-for-faq{
+    height: 4px;
+    width: 64px;
+    background-color: #387ed1;  
+    transition: width 500ms ease-in-out;
+}
+.line-for-faq:hover{
+   width: 100px;
 }
